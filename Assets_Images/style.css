@@ -1,0 +1,59 @@
+body {
+    background-color: rgb(196, 194, 194);
+}
+
+.navbar {
+    background-color: rgb(33, 151, 151);
+    border: 0.5px solid white;
+}
+
+.navbar a {
+    color: white;
+}
+
+.navbar-brand {
+    font-weight: 500 ;
+    font-size: 30px;
+}
+
+.box {
+    border: 1px solid rgb(175, 175, 175);
+    background-color: white;
+    margin: 20px;
+}
+
+h2 {
+    padding: 20px 20px 0px 20px;
+    font-size: 28px;
+    color: rgb(33, 151, 151);
+}
+
+img {
+    width: 200px;
+    height: 200px;
+    margin-bottom: 20px;
+    align-content: center;
+}
+
+
+
+.top_footer {
+    width: 100%;
+    height: 20px;
+    background-color: rgb(33, 151, 151);
+    position:fixed;
+    left: 0;
+    bottom:80px;
+}
+
+.bottom_footer {
+    width: 100%;
+    height: 80px;
+    background-color: rgb(82, 82, 82);
+    color: seashell;
+    text-align: center;
+    font-size: 10px;
+    position:fixed;
+    bottom:0;
+    left: 0;
+}
