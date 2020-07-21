@@ -1,14 +1,17 @@
+
 body {
-    background-color: rgb(196, 194, 194);
+    background-color: #FFF;
+    font-family: 'Montserrat', sans-serif;
+    padding-bottom: 200px;
 }
 
 .navbar {
-    background-color: rgb(33, 151, 151);
-    border: 0.5px solid white;
+    background-color: #355070;
+    border-bottom: 0.5px solid white;
 }
 
 .navbar a {
-    color: white;
+    color: #FFF;
 }
 
 .navbar-brand {
@@ -16,41 +19,55 @@ body {
     font-size: 30px;
 }
 
-.box {
-    border: 1px solid rgb(175, 175, 175);
-    background-color: white;
-    margin: 20px;
+.navbar-collapse {
+    /* Make the buttons go to the right... */
+}
+
+.about_box {
+    border: 3px solid #d9d4d1;
+    background-color: #FFF;
+    margin-top: 20px;
+    margin-bottom: auto;
 }
 
 h2 {
     padding: 20px 20px 0px 20px;
-    font-size: 28px;
-    color: rgb(33, 151, 151);
+    font-size: 30px;
+    font-weight: 500;
+    color: #B56576;
 }
 
 img {
-    width: 200px;
-    height: 200px;
+    width: 100%;
+    height: auto;
+    margin-right: 20px;
     margin-bottom: 20px;
-    align-content: center;
+    float: left;
 }
 
-
+p {
+    margin: 10px;
+}
 
 .top_footer {
     width: 100%;
-    height: 20px;
-    background-color: rgb(33, 151, 151);
+    height: 35px;
+    background-color:#FFC4A3;
+    border-top: 0.5px solid white;
     position:fixed;
     left: 0;
     bottom:80px;
 }
 
+/* footer p {
+   
+} */
+
 .bottom_footer {
     width: 100%;
     height: 80px;
-    background-color: rgb(82, 82, 82);
-    color: seashell;
+    background-color: #355070;
+    color: #FFF;
     text-align: center;
     font-size: 10px;
     position:fixed;

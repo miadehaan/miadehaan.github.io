@@ -4,9 +4,11 @@
 <head>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <link rel="stylesheet" href="assets_Images/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
 
     <!-- This makes webpage more reposnsive with correct scaling -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
     
     <title>About Me</title>
 
@@ -14,12 +16,12 @@
 
 <body>
     <!-- Header/Navbar -->
-    <nav class="navbar navbar-expand-md">
+    <nav class="navbar navbar-expand-lg navbar-expand-md navbar-expand-sm">
         <a class="navbar-brand" href="#">Mia de Haan</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="collapse navbar-collapse d-flex justify-content-end" id="navbarNavAltMarkup">
             <div class="navbar-nav">
                 <a class="nav-item nav-link active" href="#">About <span class="sr-only">(current)</span></a>
                 <a class="nav-item nav-link" href="#">Portfolio</a>
@@ -31,16 +33,16 @@
     
     <div  class="container">
         <div class="row">
-            <div class="col-md-8 box">
+            <div class="col-lg-8 col-md-8 col-sm-12 about_box">
                 <h2>About Me</h2>
                 <hr>
 
                 <div class="row">
-                    <div class="col-md-4">
+                    <div class="col-lg-4 col-md-6 col-sm-12">
                         <img src="Assets_Images/IMG_9043.jpg" class="rounded float-left" alt="Photo of Mia and her dog on a bridge">
                     </div>
                     
-                    <div class="col-md-8">
+                    <div class="col-lg-8 col-md-6 col-sm-12">
                         <p> Hello! My name is Mia de Haan, and this is my portfolio!
                             I'm currently taking a Full-Stack Web Development Boot Camp
                             through the Univeristy of Oregon. I am on track to complete
@@ -48,7 +50,7 @@
                         </p>
                     </div>
 
-                    <div class="col-md-12">
+                    <div class="col-lg-12 col-md-12 col-sm-12">
                         <p>I have a bachelors degree in mechanical engineering,
                             however that is not my passion. I love coding and creating Web
                             pages and can't wait to see where this journey takes me!
@@ -56,7 +58,7 @@
                     </div>
                 </div>
 
-            </div>   
+            </div> 
         </div>
     </div>
 
@@ -66,7 +68,9 @@
 
     <footer class="footer">
         <div class="top_footer"></div>
-        <div class="bottom_footer"> Copyright </div>
+        <div class="bottom_footer"> 
+            <p>Copyright</p>
+        </div>
     </footer>
 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
