@@ -21,7 +21,7 @@ body {
     /* margin-left: 50px; */
 }
 
-/*Styles for Content of each page  */
+/*Styles for Main Content of each page  */
 .content_box {
     border: 3px solid #d9d4d1;
     background-color: #FFF;
@@ -44,12 +44,21 @@ h2 {
     color: #B56576;
 }
 
-img {
+.about_img {
     width: 100%;
     height: auto;
     margin-right: 20px;
     margin-bottom: 20px;
     float: left;
+}
+
+
+.img-thumbnail {
+    margin: 20px;
+    width: 80%;
+    height: auto;
+    float: left;
+    /* border: 1px solid red; */
 }
 
 p {
