@@ -25,17 +25,16 @@ body {
 .content_box {
     border: 3px solid #d9d4d1;
     background-color: #FFF;
-    margin: 50px 20px auto 20px;
+    margin: 50px 20px 20px 20px;
 }
 
 .form-group {
-    margin: 20px auto 20px auto;
-    
+    margin: 20px auto 20px auto;   
 }
 
-.contact_info button {
-    /* align... */
-    margin: 20px auto 20px auto;
+.contact_info div {
+    margin: 20px;
+
 }
 
 h2 {
