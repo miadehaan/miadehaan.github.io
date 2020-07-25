@@ -11,22 +11,18 @@ body {
     border-bottom: 0.5px solid white;
 }
 
-.navbar a {
-    color: #FFF;
-}
-
 .navbar-brand {
     font-weight: 500 ;
     font-size: 30px;
-    /* margin-left: 50px; */
 }
+
 
 /*Styles for Main Content of each page  */
 .content_box {
     border: 3px solid #d9d4d1;
     border-radius: 15px;
     background-color: #FFF;
-    margin: 100px 20px 20px 20px;
+    margin: 50px 20px 20px 20px;
 }
 
 .form-group {
