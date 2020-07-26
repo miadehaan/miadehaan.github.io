@@ -4,7 +4,9 @@ This portfolio webpage was created by utilizing the css framework, Bootstrap, to
 
 The validation service,W3C Markup Validation Service, was used to double check my HTML files for any errors. 
 
-# miadehaan.github.io
-[Webpage Example](https://giphy.com/gifs/gIlYZJtj3b7M1cBHl8)
+#Links
+[Webpage](gif1.gif)
+
 [Deployed Application URL](https://miadehaan.github.io/index.html)
+
 [Github Repository](https://github.com/miadehaan/miadehaan.github.io)
