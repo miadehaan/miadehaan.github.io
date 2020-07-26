@@ -14,5 +14,6 @@ This portfolio webpage was created by utilizing the css framework, Bootstrap, to
 
 # Author Information
 
-Author: Mia de Haan
+Author: Mia (Marianne) de Haan
+
 Email: MariannedeHaan14@gmail.com
