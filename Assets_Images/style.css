@@ -22,16 +22,12 @@ body {
     border: 3px solid #d9d4d1;
     border-radius: 15px;
     background-color: #FFF;
-    margin: 50px 20px 20px 20px;
+    margin: 50px auto 20px auto;
+    
 }
 
 .form-group {
     margin: 20px auto 20px auto;   
-}
-
-.contact_info div {
-    margin: 20px;
-
 }
 
 h2 {
@@ -46,6 +42,7 @@ h2 {
     height: auto;
     margin-right: 20px;
     margin-bottom: 20px;
+    margin-top: 20px;
     float: left;
 }
 
@@ -55,11 +52,13 @@ h2 {
 }
 
 .img_container {
+    /* Project Images */
     position: relative;
     margin: 20px;
 }
 
 .text-block {
+    /* Text Over Project Images */
     position: absolute;
     bottom: 0;
     left: 0;
@@ -72,7 +71,8 @@ h2 {
 }
 
 p {
-    margin: 10px;
+    margin-right: 20px;
+    margin-top: 20px;
 }
 
 
