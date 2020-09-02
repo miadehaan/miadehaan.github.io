@@ -2,7 +2,6 @@
 body {
     background-color: #FFF;
     font-family: 'Gayathri', sans-serif;
-    padding-bottom: 200px;
 }
 
 /* Navigation Bar Styles */
@@ -83,8 +82,6 @@ p {
     height: 35px;
     /* background-color:#FFC4A3; */
     background-color: #B56576;
-    /* border-top: 0.5px solid white; */
-    position:fixed;
     left: 0;
     bottom:80px;
 }
@@ -97,7 +94,6 @@ p {
     text-align: center;
     line-height: 80px;
     font-size: 10px;
-    position:fixed;
     bottom:0;
     left: 0;
 }
