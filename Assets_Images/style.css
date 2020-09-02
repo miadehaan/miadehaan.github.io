@@ -31,9 +31,10 @@ body {
     margin: 20px auto 20px auto;   
 }
 
-h2 {
+h1 {
     padding: 20px 20px 0px 20px;
-    font-size: 30px;
+    text-align: center;
+    /* font-size: 30px; */
     font-weight: 500;
     color: #B56576;
 }
@@ -42,7 +43,7 @@ h2 {
     /* Image of Me */
     width: 80%;
     height: auto;
-    margin: 20px auto 20px auto;
+    margin: 20px auto 80px auto;
 }
 
 .img-thumbnail {
