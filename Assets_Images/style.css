@@ -14,7 +14,9 @@ body {
 
 .navbar-brand {
     font-weight: 500 ;
-    font-size: 50px;
+    font-size: 80px;
+    font-family: 'Fredericka the Great', cursive;
+    font-family: 'Londrina Outline', cursive;
 }
 
 
@@ -42,6 +44,8 @@ h1 {
 h2 {
     margin: 20px;
     text-align: center;
+    font-family: 'Fredericka the Great', cursive;
+    font-family: 'Londrina Outline', cursive;
 }
 
 .about_img {
