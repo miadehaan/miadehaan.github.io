@@ -17,6 +17,8 @@ body {
     font-size: 80px;
     font-family: 'Fredericka the Great', cursive;
     font-family: 'Londrina Outline', cursive;
+    /* font-weight: 400; */
+    text-shadow: 2px 2px 5px black;
 }
 
 
@@ -46,6 +48,8 @@ h2 {
     text-align: center;
     font-family: 'Fredericka the Great', cursive;
     font-family: 'Londrina Outline', cursive;
+    font-size: 48px;
+    font-weight: 550;
 }
 
 .about_img {
