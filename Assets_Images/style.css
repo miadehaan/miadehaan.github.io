@@ -6,7 +6,7 @@ body {
 
 /* Navigation Bar Styles */
 .navbar {
-    height: 230px;
+    height: auto;
     /* background-color: #355070; */
     background-color: #FFC4A3;
     border-bottom: 0.5px solid white;
