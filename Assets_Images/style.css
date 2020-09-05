@@ -14,11 +14,12 @@ body {
 
 .navbar-brand {
     font-weight: 500 ;
-    font-size: 80px;
-    font-family: 'Fredericka the Great', cursive;
-    font-family: 'Londrina Outline', cursive;
+    font-size: 60px;
+    margin-left: 20px;
+    /* font-family: 'Fredericka the Great', cursive;
+    font-family: 'Londrina Outline', cursive; */
     /* font-weight: 400; */
-    text-shadow: 2px 2px 5px black;
+    /* text-shadow: 1px 1px 5px black; */
 }
 
 
@@ -54,14 +55,20 @@ h2 {
 
 .about_img {
     /* Image of Me */
-    width: 80%;
+    max-width: 100%;
     height: auto;
     margin: 20px auto 80px auto;
 }
 
-.img-thumbnail {
+.aboutParagraph, .contactParagraph {
+    /* border: 1px solid red; */
+    padding: 20px;
+}
+
+.portfolio-thumbnail {
     width: 100%;
     height: auto;
+    border-radius: 8px;
 }
 
 .img_container {
@@ -73,14 +80,15 @@ h2 {
 .text-block {
     /* Text Over Project Images */
     width: 100%;
-    background-color: #f3ccd5;
+    background-color: #8181819a;
     color: white;
     padding: 20px 20px 5px 20px;
     position: absolute;
     bottom: 0;
     left: 0;
     text-align: left;
-    border-radius: 3px;
+    border-bottom-right-radius: 8px;
+    border-bottom-left-radius: 8px;
 }
 
 p {
