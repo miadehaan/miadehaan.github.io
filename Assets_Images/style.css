@@ -65,6 +65,10 @@ h2 {
     padding: 20px;
 }
 
+#contactInfo {
+    font-size: 18px;
+}
+
 .portfolio-thumbnail {
     width: 100%;
     height: auto;
@@ -80,7 +84,7 @@ h2 {
 .text-block {
     /* Text Over Project Images */
     width: 100%;
-    background-color: #8181819a;
+    background-color: #B56576;
     color: white;
     padding: 20px 20px 5px 20px;
     position: absolute;
