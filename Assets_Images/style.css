@@ -74,6 +74,10 @@ h2 {
     font-size: 18px;
 }
 
+.resume {
+    text-align: center;
+}
+
 .portfolio-thumbnail {
     width: 100%;
     height: auto;
