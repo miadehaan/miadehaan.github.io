@@ -54,7 +54,7 @@ h2 {
     font-family: 'Fredericka the Great', cursive;
     font-family: 'Londrina Outline', cursive;
     font-size: 48px;
-    font-weight: 550;
+    font-weight: 600;
 }
 
 .about_img {
@@ -76,6 +76,7 @@ h2 {
 
 .resume {
     text-align: center;
+    font-size: 18px;
 }
 
 .portfolio-thumbnail {
