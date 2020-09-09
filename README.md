@@ -34,6 +34,6 @@ Email: MariannedeHaan14@gmail.com
 
 # License
 
-[MIT](LICENSE)
+[MIT License](LICENSE)
 
 
