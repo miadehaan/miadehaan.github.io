@@ -83,6 +83,7 @@ h2 {
     width: 100%;
     height: auto;
     border-radius: 8px;
+    border: 0.5px solid rgb(173, 173, 173);
 }
 
 .img_container {
