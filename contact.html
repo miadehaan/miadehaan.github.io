@@ -6,6 +6,10 @@
     <link rel="stylesheet" type="text/css" href="Assets_Images/style.css">
     <link href="https://fonts.googleapis.com/css2?family=Gayathri&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Fredericka+the+Great&family=Londrina+Outline&display=swap" rel="stylesheet">
+    <link rel="stylesheet"
+    href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+    integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+    crossorigin="anonymous"/>
 
     <!-- This makes webpage more reposnsive with correct scaling -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -16,9 +20,8 @@
 </head>
 
 <body>
-   
-     <!-- Header/Navbar -->
-     <nav class="navbar navbar-expand-lg navbar-dark">
+    <!-- Header/Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark">
         <a class="navbar-brand" href="index.html">Mia de Haan</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -30,16 +33,30 @@
             <a class="nav-item nav-link" href="contact.html">Contact</a>
           </nav>
         </nav>
-      </nav>
+    </nav>
     
     
     <!-- Contact Info Form -->
     <main class="container">
         <div class="row">
-            <form class="col-lg-6 col-sm-12 content_box">
-                <h1>Contact</h1>
+            <h1 class="col-12">Contact Information</h1>
                 <!-- <hr> -->
 
+            <section class="contactParagraph align-middle align-self-center col-sm-12 d-flex justify-content-center">
+                <!-- <h2> Contact Me! </h2> -->
+                <ul id="contactInfo" style="list-style: none;">
+                    <!-- <b>Contact Information</b> -->
+                    <li><i class="fas fa-envelope"></i> Email: <a href="mailto:MariannedeHaan14@gmail.com">MariannedeHaan14@gmail.com</a></li>
+                    <li><i class="fas fa-phone"></i>    Cell: <a href="tel:404-862-8850">(404) 862-8850</a></li>
+                    <li><i class="fab fa-github"></i>   Github: <a href="https://github.com/miadehaan" target="_blank">github.com/miadehaan</a></li>
+                    <li><i class="fab fa-linkedin"></i> Linkedin Profile: <a href="https://www.linkedin.com/in/marianne-mia-de-haan-78b853100/" target="_blank">Linkedin</a></li>
+                </ul>
+            </section>
+
+            <form class="col-lg-6 col-sm-12 content_box">
+                
+
+                <h3 class="d-flex justify-content-center">Leave your contact information below!</h3>
                 <section class="form-group col-lg-12 col-md-12 col-sm-12">
                     <label for="exampleFormControlInput1">Name</label>
                     <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Katy Smith">
