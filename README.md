@@ -32,11 +32,11 @@ This portfolio webpage was created by utilizing the css framework, Bootstrap, to
 
 ## Application
 
-![demo1](Assets_Images/demo1.PNG)
+![demo1](public/Assets/demo1.PNG)
 
-![demo2](Assets_Images/demo2.PNG)
+![demo2](public/Assets/demo2.PNG)
 
-![demo3](Assets_Images/demo3.PNG)
+![demo3](public/Assets/demo3.PNG)
 
 
 ## Questions
