@@ -29,6 +29,7 @@ This portfolio webpage was created by utilizing the css framework, Bootstrap, to
 - HTML
 - CSS
 - Bootstrap Framework
+- React JS
 
 ## Application
 
