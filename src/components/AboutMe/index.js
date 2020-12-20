@@ -22,7 +22,7 @@ function AboutMe() {
                                 this course January of 2021.
                             </p>
                             <p> 
-                                I'm so excited to build dynamic, beautiful websites, and continue to learn
+                                I'm so excited to build more dynamic, beautiful websites, and continue to learn
                                 as much as I can along the way. I can't wait to begin building strong 
                                 relationships with clients and help them build the website 
                                 of their dreams for their own business.
@@ -40,9 +40,9 @@ function AboutMe() {
                             <img src="./Assets/IMG_8692.jpg" alt="Mia with dog on a dock at a lake" className="about_img img-fluid rounded shadow-lg" />
                         </section>
 
-                        <section className="resume align-middle align-self-center col-sm-12">
-                            {/* <iframe className="rounded" width="760px" height="700px" src="https://sway.office.com/s/LHKPVry0uO5ucCVH/embed" frameborder="0" marginheight="0" marginwidth="0" max-width="100%" sandbox="allow-forms allow-modals allow-orientation-lock allow-popups allow-same-origin allow-scripts" scrolling="no" style="border: none; max-width: 100%; max-height: 100vh" allowfullscreen mozallowfullscreen msallowfullscreen webkitallowfullscreen></iframe> */}
-                        </section>
+                        {/* <section className="resume align-middle align-self-center col-sm-12">
+                            <iframe className="rounded" width="760px" height="700px" src="https://sway.office.com/s/LHKPVry0uO5ucCVH/embed" frameborder="0" marginheight="0" marginwidth="0" max-width="100%" sandbox="allow-forms allow-modals allow-orientation-lock allow-popups allow-same-origin allow-scripts" scrolling="no" style="border: none; max-width: 100%; max-height: 100vh" allowfullscreen mozallowfullscreen msallowfullscreen webkitallowfullscreen></iframe>
+                        </section> */}
                     </div>
 
                 </article> 
