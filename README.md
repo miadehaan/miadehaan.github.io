@@ -18,9 +18,9 @@ This portfolio webpage was created by utilizing the css framework, Bootstrap, to
 
 ## Links
 
-[Deployed Application URL](https://miadehaan.github.io/index.html)
+Deployed Application URL: https://miadehaan.github.io/
 
-[Github Repository](https://github.com/miadehaan/miadehaan.github.io)
+Github Repository: https://github.com/miadehaan/miadehaan.github.io 
 
 ## Technologies
 
