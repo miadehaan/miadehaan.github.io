@@ -1,7 +1,13 @@
 import React from 'react';
 import "./style.css";
+import {useSpring, animated} from 'react-spring';
 
 function AboutMe() {
+    const props = useSpring({
+        opacity: 1, from: {opacity: 0},
+        config: { duration: 1500 }
+    });
+
     return (
         <main  className="container">
             <div className="row">
@@ -9,9 +15,9 @@ function AboutMe() {
                     <h1>About Me</h1>
 
                     <div className="row">
-                        <section className="col-lg-6 col-sm-12">
+                        <animated.section style={props} className="col-lg-6 col-sm-12">
                             <img src="./Assets/IMG_2096.jpg" alt="Mia at pumpkin patch" className="about_img img-fluid rounded shadow-lg" />
-                        </section>
+                        </animated.section>
 
                         <section className="aboutParagraph align-middle align-self-center col-lg-6 col-sm-12">
                             <h2> Hello! </h2>
