@@ -15,7 +15,7 @@ function Header() {
         </button>
         <nav className="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
           <nav className="navbar-nav">
-            <a className="nav-link" href="/home#about">About</a>
+            <a className="nav-link" href="/home">About</a>
             <a className="nav-link" href="/home#resume">Resume</a>
             <a className="nav-link" href="/home#portfolio">Portfolio</a>
             <Link to="/contact" className="nav-item nav-link">Contact Me</Link>
