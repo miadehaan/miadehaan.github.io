@@ -1,0 +1,28 @@
+
+/* Extra small & small devices (phones, 768px and down) */
+@media only screen and (max-width: 768px) {
+    .textBackgroundImg {
+        width: 100%;
+        opacity: 80%;
+    }
+    
+    
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .textBackgroundImg {
+        width: 60%;
+        opacity: 80%;
+    }
+    
+}
+
+.centeredList {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    list-style-type: none;
+    padding-bottom: 15px;
+}

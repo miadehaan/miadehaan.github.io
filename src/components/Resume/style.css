@@ -1,0 +1,29 @@
+.resumeContent {
+    margin-top: 20px;
+    text-align: center;
+    position: relative;
+}
+
+a:link {
+    color: #000;
+}
+
+a:hover {
+    color: black;
+}
+
+.resumeContent h1 {
+    font-size: 50px;
+    margin: 0;
+    padding-top: 100px;
+}
+
+.rectangle {
+    box-shadow: 1px 1px 1px 1px grey;
+    background-color: #fff5ef;
+    position: absolute;
+    top: -50px;
+    left: 15%;
+    width: 70%;
+    height: 300px;
+}

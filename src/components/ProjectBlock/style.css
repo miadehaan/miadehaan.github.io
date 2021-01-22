@@ -1,42 +1,47 @@
-.content_box {
-    /* border: 3px solid #d9d4d1;
-    border-radius: 15px; */
-    background-color: #FFF;
-    margin: 50px auto 20px auto;
+.cardDeck {
+    padding-left: 75px;
+}
+
+/* Blur Overlay on Hover */
+.img_container {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.image {
+    width: 100%;
+    height: auto;
+}
+
+.hoverLinks {
+    display: none;
+}
+
+.image:hover {
+    /* -webkit-filter: blur(5px); Chrome, Safari, Opera */
+    /* filter: blur(5px); */
+
+}
+
+.img_container:hover .hoverLinks {
+    display: block;
     
 }
 
-.portfolio-thumbnail {
-    width: 100%;
-    height: auto;
-    border-radius: 8px;
-    border: 0.5px solid rgb(173, 173, 173);
+/* Keep img blurred when hovering over text/links */
+.hoverLinks:hover {
+
 }
 
-.img_container {
-    /* Project Images */
-    position: relative;
-    margin: 20px;
-}
-
-.text-block {
-    /* Text Over Project Images */
-    width: 100%;
-    background-color: #B56576;
-    color: white;
-    padding: 20px 20px 5px 20px;
+/* Centered text over images */
+.centered {
     position: absolute;
-    bottom: 0;
-    left: 0;
-    text-align: left;
-    border-bottom-right-radius: 8px;
-    border-bottom-left-radius: 8px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
-a.portfolio {
-    color: white;
-}
-
-a:hover {
-    color: #170263;
+.centered a {
+    color: #000000;
 }

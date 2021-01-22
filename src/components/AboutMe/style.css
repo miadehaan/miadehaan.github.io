@@ -1,56 +1,41 @@
-.content_box {
-    /* border: 3px solid #d9d4d1;
-    border-radius: 15px; */
-    background-color: #FFF;
-    margin: 50px auto 20px auto;
-    
-}
+/* .textBackgroundImg {
+    width: 100%;
+} */
 
-.form-group {
-    margin: 20px auto 20px auto;   
-}
+/* .centeredTxt {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 0 15px 15px 30px;
+} */
 
-form.content_box {
-    margin-top: 100px;
-    border: 0.5px solid rgb(182, 182, 182);
-    border-radius: 8px;
-}
-
-h1, h3 {
-    padding: 50px 20px 70px 20px;
+#about {
     text-align: center;
-    /* font-size: 30px; */
-    font-weight: 500;
-    color: #B56576;
+    padding: 30px 0;
 }
 
-h2 {
-    margin: 20px;
-    text-align: center;
-    font-family: 'Fredericka the Great', cursive;
-    font-family: 'Londrina Outline', cursive;
-    font-size: 48px;
-    font-weight: 600;
+.aboutTitle {
+    font-size: 50px;
+    padding-bottom: 60px;
 }
 
-.about_img {
-    /* Image of Me */
-    max-width: 100%;
-    height: auto;
-    margin: 20px auto 80px auto;
+#profile {
+    width: 80%;
 }
 
 .aboutParagraph {
-    /* border: 1px solid red; */
-    padding: 20px;
+    font-size: 20px;
+    padding-top: 100px;
 }
 
-#contactInfo {
-    /* margin-top: 50px; */
-    font-size: 18px;
+.skillsTitle {
+    font-size: 50px;
+    margin-top: 80px;
+    margin-bottom: 30px;
 }
 
-.resume {
+.skillsList{
+    list-style: none;
     text-align: center;
-    font-size: 18px;
 }

@@ -1,0 +1,100 @@
+.landingPg {
+    min-height: 100vh;
+    background-color: #fae1dd;
+    color: #000;
+
+    position: relative;
+
+}
+
+.landingText {
+    text-align: left;
+    font-weight: bold;
+    padding-left: 20px;
+}
+
+.brandLogo {
+    width: 550px;
+}
+
+.verticalLine {
+    border-left: thin solid #000;
+}
+
+#enterBtn {
+    text-align:center;
+}
+
+
+/* Large devices (laptops/desktops, 993px and up) */
+@media only screen and (min-width: 993px) {
+    #textContainer  {
+        margin-top: 150px;
+    }
+
+    #enterBtn {
+        margin-top: 70px;
+    }
+
+    .blob1 {
+        width: 550px;
+        position: fixed;
+        margin-left: -10vw;
+        margin-top: -12vw;
+    }
+}
+
+/* Screen sizes: 768px-992px */
+@media only screen and (min-width: 768px) {
+    .brandLogo {
+        margin-top: 90px;
+    }
+
+    #textContainer {
+        margin-top: 150px;
+    }
+
+    #enterBtn {
+        margin-top: 70px;
+    }
+
+    .blob1 {
+        width: 500px;
+        position: fixed;
+        margin-left: -18vw;
+        margin-top: -18vw;
+    }
+}
+
+
+/* Screen sizes: 0px-768px */
+@media (max-width: 768px) {
+    .brandLogo {
+        margin-top: 20px;
+    }
+
+    #textContainer {
+        margin-top: 10px;
+    }
+
+    #enterBtn {
+        margin-top: 50px;
+    }
+
+    .blob1 {
+        width: 350px;
+        position: fixed;
+        margin-left: -20vw;
+        margin-top: -12vw;
+    }
+}
+
+/* .circle {
+    width: 50rem;
+    height: 50rem;
+    background: #ffffff;
+    border-radius: 50%;
+    position: fixed;
+    right: -200px;
+    margin-bottom: -10vw;
+} */
