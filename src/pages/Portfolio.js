@@ -10,8 +10,8 @@ function Portfolio() {
             <Header />
             <main className="container">
                 <div className="row">
-
                     <h1 className="col-12" style={{ textAlign: 'center', marginTop: '50px', marginBottom: '100px', fontSize: '50px' }}>Portfolio</h1>
+
                     <article className="col-12" style={{ backgroundColor: '#fae1dd' }}>
                         <ProjectBlock />
                     </article> 
