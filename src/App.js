@@ -6,6 +6,7 @@ import {
 import "./App.css";
 import Landing from "./pages/Landing";
 import Home from "./pages/Home";
+import Portfolio from "./pages/Portfolio";
 import Contact from "./pages/Contact";
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
     <div style={{ backgroundColor: '#fae1dd' }} >
       <Switch >
         <Route exact path="/" component={Landing} />
+        <Route path="/portfolio" component={Portfolio} />
         <Route exact path="/contact" component={Contact} />
         {/* <Route path="/home" component={Home} /> */}
         <Route component={Home} />

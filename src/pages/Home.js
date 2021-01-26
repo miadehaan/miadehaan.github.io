@@ -3,7 +3,6 @@ import "./home.css";
 import Header from "../components/Header";
 import AboutMe from "../components/AboutMe";
 import Resume from "../components/Resume";
-import ProjectBlock from "../components/ProjectBlock";
 import Footer from "../components/Footer";
 import UpArrow from "../Assets/chevron-up-solid.svg";
 
@@ -24,15 +23,6 @@ function Home() {
       <div id="resume" className="resumeContainer" style={{ backgroundColor: '#ffffff', height: '200px' }} >
         <div className="col-12">
           <Resume />
-        </div>
-      </div>
-
-      <div  className="container">
-        <div id="portfolio" classame="row">
-          <h1 className="col-12" style={{ textAlign: 'center', marginTop: '250px', marginBottom: '50px', fontSize: '50px' }}>Portfolio</h1>
-          <article className="col-12" style={{ backgroundColor: '#fae1dd' }}>
-              <ProjectBlock />
-          </article> 
         </div>
       </div>
 
