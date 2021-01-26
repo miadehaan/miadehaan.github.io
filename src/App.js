@@ -12,9 +12,10 @@ function App() {
   return (
     <div style={{ backgroundColor: '#fae1dd' }} >
       <Switch >
-        <Route path="/" exact component={Landing} />
-        <Route path="/home" component={Home} />
-        <Route path="/contact" component={Contact} />
+        <Route exact path="/" component={Landing} />
+        <Route exact path="/contact" component={Contact} />
+        {/* <Route path="/home" component={Home} /> */}
+        <Route component={Home} />
       </Switch>
     </div>
 
