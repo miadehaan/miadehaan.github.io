@@ -1,51 +1,18 @@
-/* Mobile Responsive Card Columns */
-
-/* 764px-smallest */
-@media only screen and (max-width: 992px){
-    .card-columns {
-        column-count: 1;
-        column-gap: 1.25rem;
-        orphans: 1;
-        widows: 1;
-    }
-}
-
-/* 992-600px --> needs to be 1 column but it's not... */
-/* @media only screen and (min-width: 600px){
-    .card-columns {
-        column-count: 1;
-        column-gap: 1.25rem;
-        orphans: 1;
-        widows: 1;
-    }
-
-    .card_container:hover {
-        transform: scale(1.25);
-        z-index: 1;
-    }
-} */
-
-/* max-992px */
-@media only screen and (min-width: 992px){
-    .card-columns {
-        column-count: 3;
-        column-gap: 1.25rem;
-        orphans: 1;
-        widows: 1;
-    }
-
-    .card_container:hover {
-        transform: scale(1.25);
-        z-index: 1;
-    }
+.card_container:hover {
+    transform: scale(1.1);
+    z-index: 1;
 }
 
 .card_container {
-    box-shadow: 2px 2px 2px grey;
+    box-shadow: 2px 2px 2px 2px grey;
 }
 
 .appImage {
     border-bottom: 1px solid rgba(187, 187, 187, 0.705);
+}
+
+.techList {
+    padding-top: 20px;
 }
 
 .links {
