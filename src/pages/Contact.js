@@ -3,7 +3,7 @@ import ContactForm from "../components/ContactForm";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
 import firebase from "../firebase";
-
+import Axios from 'axios';
 
 function Contact() {
   const [input, setInput] = useState({
@@ -26,24 +26,8 @@ function Contact() {
   const handleFormSubmit = (e) => {
     e.preventDefault();
 
-    // Save info to Firestore DB 
-        // Validation for all input fields
-        if (input.name === "" || input.email === "" || input.message === "" ) {
-          alert("Please fill out all fields before submitting.");
-      }
-      else {
-          docRef.add({
-              name: input.name,
-              email: input.email,
-              message: input.message,
-              timeStamp: new Date(),
-          }).then( () => {
-              console.log("Information saved to DB!");
-              alert("Your information has been submitted. Thank you!");
-          }).catch( (error) => {
-              console.log("Got an error: ", error)
-          });
-      }
+    // Send email with new submission && save to DB
+    sendEmail();
 
     setInput({
       name: "",
@@ -54,7 +38,36 @@ function Contact() {
     console.log(input);
   }
 
-  
+  const sendEmail = () => {
+    Axios.post(
+      'https://us-central1-mia-portfolio.cloudfunctions.net/submit',
+      input
+    )
+    .then( res => {
+      console.log("email sent");
+
+      // Save info to Firestore DB 
+      // Validation for all input fields
+      if (input.name === "" || input.email === "" || input.message === "" ) {
+        alert("Please fill out all fields before submitting.");
+      }
+      else {
+        docRef.add({
+            name: input.name,
+            email: input.email,
+            message: input.message,
+            timeStamp: new Date(),
+        })
+        .then( () => {
+            console.log("Information saved to DB & email sent!");
+            alert("Your information has been submitted. Thank you!");
+        });
+      }
+    })
+    .catch(error => {
+      console.log(error)
+    })
+  }  
 
   return (
     <div>

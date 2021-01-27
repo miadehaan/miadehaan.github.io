@@ -27,7 +27,7 @@ function Home() {
       </div>
 
       {/* Back to Top Button */}
-      <a id="backToTop" className="nav-link" href="#top"> <img src={UpArrow} alt="FontAwesome Up Arrow"/> </a>
+      {/* <a id="backToTop" className="nav-link" href="#top"> <img src={UpArrow} alt="FontAwesome Up Arrow"/> </a> */}
     
       <Footer />
     </div>

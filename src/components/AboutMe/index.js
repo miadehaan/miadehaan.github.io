@@ -31,7 +31,7 @@ function AboutMe() {
                     <FadeInRight>
                         <p className="aboutParagraph"> 
                             My name is Mia de Haan, and I'm a Full-Stack Web Developer with a focus in 
-                            Front-End React JS and a background in mechanical enginering.
+                            Front-End React JS and a background in mechanical engineering.
                             I recently earned a certificate for Full-Stack Web Development at the 
                             University of Oregon, while simultaneously working full-time. I'm currently seeking
                             a full-time position as a Front-End Developer, and hope to continue to grow and learn as 
@@ -47,10 +47,15 @@ function AboutMe() {
                 <ul className="col-12 skillsList">
                     <li> HTML5 </li>
                     <li> CSS3 </li>
-                    <li> JavaScript </li>
                     <li> Bootstrap </li>
+                    <li> JavaScript </li>
+                    <li> jQuery </li>
                     <li> React.js </li>
+                    <li> Express.js </li>
                     <li> Node.js </li>
+                    <li> MySQL </li>
+                    <li> MongoDB </li>
+                    <li> Git </li>
                 </ul>
 
             </div>
