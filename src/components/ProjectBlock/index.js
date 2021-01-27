@@ -1,10 +1,25 @@
 import React from 'react';
 import "./style.css";
 import projects from "../../utils/projects.js";
-import { Card, Row, Col, Container, Accordion, Button } from "react-bootstrap";
+import { Card, Row, Col, Container } from "react-bootstrap";
+import ReactTextCollapse from "react-text-collapse";
 
 function ProjectBlock() {
     // console.log(projects);
+
+    const TEXT_COLLAPSE_OPTIONS = {
+        collapse: true, // default state when component rendered
+        collapseText: "... show more", // text to show when collapsed
+        expandText: "show less", // text to show when expanded
+        minHeight: 80, // component height when closed
+        maxHeight: 150,
+        textStyle: {
+            // pass the css for the collapseText and expandText here
+            color: "blue",
+            fontSize: "16px",
+        },
+    };
+    
 
     return (
         <Container>
@@ -18,17 +33,11 @@ function ProjectBlock() {
 
                         <Card.Header> {res.title} </Card.Header>
                         <Card.Body>
-                        <Accordion defaultActiveKey="0">
-                            <Accordion.Toggle as={Button} variant="link" eventKey="1">
-                                Show Description
-                            </Accordion.Toggle>
-
-                            <Accordion.Collapse eventKey="1">
-                                <Card.Text>
+                            <Card.Text>
+                                <ReactTextCollapse options={TEXT_COLLAPSE_OPTIONS}>
                                     Description: {res.description}
-                                </Card.Text>
-                            </Accordion.Collapse>
-                        </Accordion>
+                                </ReactTextCollapse>
+                            </Card.Text>
 
                             <div className="techList">
                                 Technologies Used:

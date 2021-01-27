@@ -63,12 +63,13 @@ const projects =[
         title: "Daily Planner",
         img: "Assets/planner.PNG",
         alt: "Screenshot of a daily planner application",
-        description: " ",
+        description: "This is an interactive planner for your busy workday. The current date is displayed at the top of the webpage, and there are blocks for each hour of the work day (8am-5pm). Based on the current hour of the day, each hour block will show a different color. Blocks will turn red if it is in the past, the current hour will be a lavender color, and any blocks with hours in the future will be green.",
         technology: [
             "HTML",
             "CSS",
+            "Bootstrap",
             "JavaScript",
-            "Bootstrap"
+            "jQuery"
         ],
         deployedLink: "https://miadehaan.github.io/Daily_Planner/",
         githubLink: "https://github.com/miadehaan/Daily_Planner",
@@ -78,12 +79,14 @@ const projects =[
         title: "Note Taker",
         img: "Assets/notetaker.PNG",
         alt: "Screenshot of a note taking application",
-        description: " ",
+        description: "This application allows the user to create new notes, and save and delete them.",
         technology: [
             "HTML",
             "CSS",
             "JavaScript",
-            "Bootstrap"
+            "Bootstrap",
+            "Express.js",
+            "Node JS"
         ],
         deployedLink: "https://warm-caverns-15426.herokuapp.com/notes",
         githubLink: "https://github.com/miadehaan/Note_Taker",
@@ -93,12 +96,13 @@ const projects =[
         title: "Employee Directory",
         img: "Assets/employeeDirectory.PNG",
         alt: "Screenshot of a employee directory application",
-        description: " ",
+        description: "This app is a displays a directory of all employees at a given company. The user is able to search for employees by name and filter by first & last name alphabetically. ",
         technology: [
             "HTML",
             "CSS",
             "JavaScript",
             "Bootstrap",
+            "React JS"
         ],
         deployedLink: "https://miadehaan.github.io/Employee_Directory_react/",
         githubLink: "https://github.com/miadehaan/Employee_Directory_react",
@@ -108,12 +112,15 @@ const projects =[
         title: "Fitness Tracker",
         img: "Assets/fitnessTracker.PNG",
         alt: "Screenshot of a fitness tracker application",
-        description: " ",
+        description: "For this app, the user is able to add new exercises and workouts. The overall stats are then displayed on various charts and graphs.",
         technology: [
             "HTML",
             "CSS",
             "JavaScript",
             "Bootstrap",
+            "Express JS",
+            "Node JS",
+            "MongoDB"
         ],
         deployedLink: "https://mysterious-fjord-83289.herokuapp.com/?id=5fb0afa31ef3450017eb9013",
         githubLink: "https://github.com/miadehaan/Fitness_Tracker",

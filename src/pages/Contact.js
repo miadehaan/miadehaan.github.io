@@ -62,11 +62,14 @@ function Contact() {
       <main className="container">
       <div className="row">
           <h1 className="col-12" style={{ textAlign: 'center' }}>Contact Information</h1>
-          <ContactForm 
-            handleInputChange={handleInputChange}
-            handleFormSubmit={handleFormSubmit}
-            data={input}
-          />
+          <div className="col-12">
+            <ContactForm 
+              handleInputChange={handleInputChange}
+              handleFormSubmit={handleFormSubmit}
+              data={input}
+            />
+          </div>
+
         </div>
       </main>
       <Footer />

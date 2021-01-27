@@ -19,6 +19,15 @@ a:hover {
     width: 20px;
 }
 
+.socials a {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.socials a:hover {
+    text-decoration: none;
+}
+
 hr {
     padding: 10px;
     width: 80%;
