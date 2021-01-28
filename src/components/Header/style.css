@@ -3,15 +3,31 @@
     height: auto;
 }
 
-.logo {
-    width: 300px;
-}
-
 .navbar-brand {
     font-weight: 500;
     font-size: 60px;
     color: #FFF;
     margin-left: 20px;
+}
+
+@media only screen and (max-width: 600px) {
+    .navbar-brand {
+        width: 30%;
+    }
+
+    .logo {
+        width: 200px;
+    }
+}
+
+@media only screen and (min-width: 600px) {
+    .navbar-brand {
+        width: 50%;
+    }
+
+    .logo {
+        width: 300px;
+    }
 }
 
 .navbar-nav {
