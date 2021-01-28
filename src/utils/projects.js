@@ -22,20 +22,19 @@ const projects =[
         key: 1
     },
     {
-        title: "AirWalk",
-        img: "Assets/airwalk.PNG",
-        alt: "Screenshot of AirWalk application home page with a map",
-        description: "An app in which the user search for hikes based on city and can filter by city, distance, elevation, difficulty. A map with pins of each hike is diplsayed, as well as a 5-day weather forecast for the searched area.",
+        title: "Miracle Theory",
+        img: "Assets/miracleTheory.PNG",
+        alt: "Screenshot of Miracle Theory application",
+        description: "This webpage was created for my client's Youtube Channel to showcase episodes, provide information about the show, and exposes her brand past the scope of just Youtube. This site also serves as a communication tool for viewers and subscribers to directly contact her with their own stories to be featured on the show.",
         technology: [
             "HTML",
             "CSS",
-            "W3.CSS",
-            "JavaScript",
-            "jQuery",
-            "3rd Party APIs"
+            "Bootstrap",
+            "React JS",
+            "Firebase"
         ],
-        deployedLink: "https://mx6.github.io/Bootcamp_Project_1/",
-        githubLink: "https://github.com/mx6/Bootcamp_Project_1",
+        deployedLink: "https://miracletheorywebsite.web.app/",
+        githubLink: "https://github.com/miadehaan/MiracleTheory",
         key: 2
     },
     {
@@ -76,6 +75,23 @@ const projects =[
         key: 4
     },
     {
+        title: "AirWalk",
+        img: "Assets/airwalk.PNG",
+        alt: "Screenshot of AirWalk application home page with a map",
+        description: "An app in which the user search for hikes based on city and can filter by city, distance, elevation, difficulty. A map with pins of each hike is diplsayed, as well as a 5-day weather forecast for the searched area.",
+        technology: [
+            "HTML",
+            "CSS",
+            "W3.CSS",
+            "JavaScript",
+            "jQuery",
+            "3rd Party APIs"
+        ],
+        deployedLink: "https://mx6.github.io/Bootcamp_Project_1/",
+        githubLink: "https://github.com/mx6/Bootcamp_Project_1",
+        key: 5
+    },
+    {
         title: "Note Taker",
         img: "Assets/notetaker.PNG",
         alt: "Screenshot of a note taking application",
@@ -90,7 +106,7 @@ const projects =[
         ],
         deployedLink: "https://warm-caverns-15426.herokuapp.com/notes",
         githubLink: "https://github.com/miadehaan/Note_Taker",
-        key: 5
+        key: 6
     },
     {
         title: "Employee Directory",
@@ -106,7 +122,7 @@ const projects =[
         ],
         deployedLink: "https://miadehaan.github.io/Employee_Directory_react/",
         githubLink: "https://github.com/miadehaan/Employee_Directory_react",
-        key: 6
+        key: 7
     },
     {
         title: "Fitness Tracker",
@@ -124,7 +140,7 @@ const projects =[
         ],
         deployedLink: "https://mysterious-fjord-83289.herokuapp.com/?id=5fb0afa31ef3450017eb9013",
         githubLink: "https://github.com/miadehaan/Fitness_Tracker",
-        key: 7
+        key: 8
     }
 
 ];
