@@ -141,6 +141,25 @@ const projects =[
         deployedLink: "https://mysterious-fjord-83289.herokuapp.com/?id=5fb0afa31ef3450017eb9013",
         githubLink: "https://github.com/miadehaan/Fitness_Tracker",
         key: 8
+    },
+    {
+        title: "Google Books Search",
+        img: "Assets/googleBooks.PNG",
+        alt: "Screenshot of google books search application",
+        description: "This app allows users to search for books using the Google Books API. They can save which books they like, and later delete saved items.",
+        technology: [
+            "HTML",
+            "CSS",
+            "JavaScript",
+            "Bootstrap",
+            "Express JS",
+            "Node JS",
+            "MongoDB",
+            "Google Books API"
+        ],
+        deployedLink: "https://radiant-plains-96143.herokuapp.com/",
+        githubLink: "https://github.com/miadehaan/Google_Book_Search",
+        key: 9
     }
 
 ];
