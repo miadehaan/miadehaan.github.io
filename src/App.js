@@ -13,6 +13,7 @@ import Contact from "./pages/Contact";
 function App() {
   return (
     <div style={{ backgroundColor: '#fae1dd' }} >
+
       {/* <Switch > */}
       <HashRouter>
         <Route exact path="/" component={Landing} />

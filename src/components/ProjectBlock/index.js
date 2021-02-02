@@ -19,7 +19,6 @@ function ProjectBlock() {
             fontSize: "16px",
         },
     };
-    
 
     return (
         <Container>

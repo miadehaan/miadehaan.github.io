@@ -1,15 +1,20 @@
 .resumeContent {
-    margin-top: 20px;
+    margin-top: 60px;
+    height: 300px;
     text-align: center;
     position: relative;
 }
 
-a:link {
-    color: #000;
+.resumeDownload {
+    margin-bottom: 60px;
 }
 
-a:hover {
-    color: black;
+/* .resumeDownload:link {
+    color: rgb(90, 90, 90);
+} */
+
+.resumeDownload:hover {
+    color: rgb(0, 0, 0);
 }
 
 .resumeContent h1 {
@@ -18,6 +23,7 @@ a:hover {
     padding-top: 100px;
 }
 
+/* 
 .rectangle {
     box-shadow: 1px 1px 1px 1px grey;
     background-color: #fff5ef;
@@ -26,4 +32,4 @@ a:hover {
     left: 15%;
     width: 70%;
     height: 300px;
-}
+} */

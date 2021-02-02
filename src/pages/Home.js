@@ -20,7 +20,7 @@ function Home() {
         </div>
       </main>
 
-      <div id="resume" className="resumeContainer" style={{ backgroundColor: '#ffffff', height: '200px' }} >
+      <div id="resume" className="resumeContainer" style={{ backgroundColor: '#ffffff', height: '400px' }} >
         <div className="col-12">
           <Resume />
         </div>

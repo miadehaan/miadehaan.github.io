@@ -1,15 +1,12 @@
 /* Navigation Bar Styles */
-.navbar {
-    height: auto;
+
+/* Navigation Links */
+.navbar-nav {
+    margin-right: 30px;
+    font-size: 18px;
 }
 
-.navbar-brand {
-    font-weight: 500;
-    font-size: 60px;
-    color: #FFF;
-    margin-left: 20px;
-}
-
+/* Logo Sizing */
 @media only screen and (max-width: 600px) {
     .navbar-brand {
         width: 30%;
@@ -28,9 +25,4 @@
     .logo {
         width: 300px;
     }
-}
-
-.navbar-nav {
-    margin-right: 30px;
-    font-size: 18px;
 }

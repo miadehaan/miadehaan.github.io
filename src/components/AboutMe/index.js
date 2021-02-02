@@ -35,7 +35,7 @@ function AboutMe() {
                             I recently earned a certificate for Full-Stack Web Development at the 
                             University of Oregon, while simultaneously working full-time. I'm currently seeking
                             a full-time position as a Front-End Developer, and hope to continue to grow and learn as 
-                            much as I can to better myself and the webistes I create.
+                            much as I can to better myself and the websites I create.
                         </p>
                     </FadeInRight>
                 </div>
