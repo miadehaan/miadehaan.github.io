@@ -77,7 +77,7 @@ function Contact() {
       <Header />
       <main className="container">
       <div className="row">
-          <h1 className="col-12" style={{ textAlign: 'center' }}>Contact Information</h1>
+          <h1 className="col-12" style={{ textAlign: 'center', fontSize: '50px', color: 'white', textShadow: '2px 1px 1px black' }}>Contact Information</h1>
           <div className="col-12">
             <ContactForm 
               handleInputChange={handleInputChange}

@@ -4,7 +4,7 @@ import Header from "../components/Header";
 import AboutMe from "../components/AboutMe";
 import Resume from "../components/Resume";
 import Footer from "../components/Footer";
-import UpArrow from "../Assets/chevron-up-solid.svg";
+// import UpArrow from "../Assets/chevron-up-solid.svg";
 
 function Home() {
 
@@ -20,10 +20,11 @@ function Home() {
         </div>
       </main>
 
-      <div id="resume" className="resumeContainer" style={{ backgroundColor: '#ffffff', height: '400px' }} >
-        <div className="col-12">
-          <Resume />
-        </div>
+
+        <div id="resume" className="container resumeContainer" style={{ }} >
+          <div className="col-12 bg">
+            <Resume />
+          </div>
       </div>
 
       {/* Back to Top Button */}
