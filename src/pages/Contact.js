@@ -75,9 +75,9 @@ function Contact() {
     <div>
       <Header />
       <main className="container">
-      <div className="row" style={{ textAlign: 'center'}}>
+      <div className="row" >
           <h1 className="col-12" style={{ textAlign: 'center', fontSize: '50px', color: 'white', textShadow: '2px 1px 1px black' }}>Contact Information</h1>
-          <span className="col-12 dots">...</span>
+          <span className="col-12 dots" style={{ textAlign: 'center'}}>...</span>
 
           <div className="col-12">
             <ContactForm 
