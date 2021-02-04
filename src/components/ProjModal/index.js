@@ -16,7 +16,7 @@ function ProjModal(props) {
         >
         <Modal.Header closeButton>
             <Modal.Title id="contained-modal-title-vcenter">
-                {projectInfo}
+                Title
             </Modal.Title>
         </Modal.Header>
         <Modal.Body>
