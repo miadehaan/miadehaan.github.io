@@ -3,6 +3,8 @@ import "./style.css";
 import projects from "../../utils/projects.js";
 import { Row, Col, Container, Button } from "react-bootstrap";
 import ProjModal from "../../components/ProjModal"
+import styled, { keyframes } from 'styled-components';
+import {  flipInX } from 'react-animations';
 
 
 function ProjectBlock() {
@@ -10,6 +12,11 @@ function ProjectBlock() {
 
     const [modalShow, setModalShow] = useState(false);
     const [selectedProj, setSelectedProj] = useState();
+
+    // react-animations
+    const FlipInX = styled.div`
+        animation: 1s ${keyframes`${flipInX}`}
+    `;
 
 
     return (
@@ -19,7 +26,7 @@ function ProjectBlock() {
                 // console.log(index);
                 return(
                     <Col md={4} sm={12}  key={res.key} style={{ margin: '0', padding: '10px' }}>
-                    
+                        <FlipInX>
                         <div className="imgContainer">
                             <img className="appImage" variant="top" src={res.img} alt={res.alt} />
                             
@@ -54,6 +61,7 @@ function ProjectBlock() {
 
                             </div>
                         </div>
+                        </FlipInX>
                     </Col>
 
                     // <Col lg={4} md={6} sm={12} style={{ paddingBottom: '30px' }}>
