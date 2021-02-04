@@ -27,12 +27,12 @@ function Home() {
       </section> */}
 
 
-      <section className="container" style={{ marginBottom: '200px'}} >
+      <section className="container" style={{ marginBottom: '200px', textAlign: 'center'}} >
         <Skills />
       </section>
 
 
-      <section id="resume" className="container resumeContainer" style={{ }} >
+      <section id="resume" className="container resumeContainer" style={{ textAlign: 'center'}} >
         <div className="col-12 bg">
           <Resume />
         </div>

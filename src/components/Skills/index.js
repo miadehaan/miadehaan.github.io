@@ -6,8 +6,12 @@ function Skills() {
 
     return (
         <div className="container" >
-            <div className="row">
-                <h1 className="col-12 skillsTitle"> Skillset </h1>
+            <div className="row" >
+                <div className="col-12" style={{ paddingBottom: '60px'}}>
+                    <h1 className=" skillsTitle"> Skillset </h1>
+                    <span className="dots">...</span>
+                </div>
+
 
                 <div className="col-sm-2" />
                 <ul className="col-sm-4 col-6 skillsList">

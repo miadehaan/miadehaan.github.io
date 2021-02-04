@@ -11,15 +11,15 @@ function Portfolio() {
             <Header />
             <main className="container">
                 <div className="row">
-                    <h1 className="col-12" style={{ textAlign: 'center', color: 'white', marginTop: '50px', marginBottom: '100px', fontSize: '50px', textShadow: '2px 1px 1px black' }}>Portfolio</h1>
+                    <h1 className="col-12" style={{ textAlign: 'center', color: 'white', marginTop: '50px', marginBottom: '0', fontSize: '50px', textShadow: '2px 1px 1px black' }}>Portfolio</h1>
+                    <span className="col-12" style={{ textAlign: 'center', color: 'white', fontSize: '40px',  marginBottom: '100px', marginTop: '0',textShadow: '1px 1px 1px black'}}>...</span>
+                </div>
+            </main>
 
-                    <article className="col-12" style={{ backgroundColor: '#fae1dd' }}>
+            <article style={{ backgroundColor: '#FFFFFF' }}>
                         {/* <ProjectBlock /> */}
                         <ProjectBlockv2 />
                     </article> 
-
-                </div>
-            </main>
             <Footer />
         </div>
 

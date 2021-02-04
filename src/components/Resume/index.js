@@ -8,13 +8,15 @@ function Resume() {
         <div className="resumeContent">
                 <div id="resumeHeader">
                     <h1> Resume </h1>
+                    <span className="dots">...</span>
+                </div>
+                
+                <div>
                     <a className="resumeDownload" href={resume} target="_blank"> 
                         <span> Download a copy of my resume here! </span>
                         <i className="fas fa-file-download" />     
                     </a>
                 </div>
-                
-                
 
                 <iframe 
                     src="https://sway.office.com/s/LHKPVry0uO5ucCVH/embed" 

@@ -18,7 +18,11 @@ function AboutMe() {
     return (
         <div className="aboutContent container" >
             <div className="row">
-                <h1 className="col-12 aboutTitle"> About Me </h1>
+                <div className="col-12" style={{ paddingBottom: '60px'}}>
+                    <h1 className="aboutTitle"> About Me </h1>
+                    <span className="dots">...</span>
+                </div>
+                
 
                 <div className="col-md-6 col-12">
                     <FadeInLeft>

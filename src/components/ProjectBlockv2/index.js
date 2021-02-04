@@ -21,13 +21,13 @@ function ProjectBlock() {
 
     return (
         <Container>
-        <Row>
+        <Row style={{ paddingTop: '60px', paddingBottom: '60px' }}>
             {projects.map( (res, index) => {
                 // console.log(index);
                 return(
-                    <Col md={4} sm={12}  key={res.key} style={{ margin: '0', padding: '10px' }}>
+                    <Col md={4} sm={12}  key={res.key} style={{ margin: '0', padding: '22px' }}>
                         <FlipInX>
-                        <div className="imgContainer">
+                        <div className="imgContainer" style={{boxShadow: '2px 2px 4px grey'}}>
                             <img className="appImage" variant="top" src={res.img} alt={res.alt} />
                             
                             <div className="overlay">

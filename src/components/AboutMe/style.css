@@ -6,9 +6,17 @@
 
 .aboutTitle {
     font-size: 50px;
-    padding-bottom: 60px;
+    padding-bottom: 0;
+    margin-bottom: 0;
     color: white;
     text-shadow: 2px 1px 1px black;
+}
+
+.dots {
+    text-align: center;
+    color: white;
+    font-size: 40px;
+    text-shadow: 1px 1px 1px black;
 }
 
 #profile {

@@ -53,19 +53,18 @@ function Contact() {
     )
     .then( res => {
       console.log("email sent");
+      alert("Your information has been submitted. Thank you!");
 
       // Save info to Firestore DB 
-
       docRef.add({
           name: input.name,
           email: input.email,
           message: input.message,
           timeStamp: new Date(),
       })
-      .then( () => {
-          console.log("Information saved to DB & email sent!");
-          alert("Your information has been submitted. Thank you!");
-      });
+      // .then( () => {
+      //     // console.log("Information saved to DB & email sent!");
+      // });
     })
     .catch(error => {
       console.log(error)
@@ -76,8 +75,10 @@ function Contact() {
     <div>
       <Header />
       <main className="container">
-      <div className="row">
+      <div className="row" style={{ textAlign: 'center'}}>
           <h1 className="col-12" style={{ textAlign: 'center', fontSize: '50px', color: 'white', textShadow: '2px 1px 1px black' }}>Contact Information</h1>
+          <span className="col-12 dots">...</span>
+
           <div className="col-12">
             <ContactForm 
               handleInputChange={handleInputChange}
