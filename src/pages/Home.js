@@ -2,6 +2,8 @@ import React from 'react';
 import "./home.css";
 import Header from "../components/Header";
 import AboutMe from "../components/AboutMe";
+import Skills from "../components/Skills";
+import Freelance from "../components/Freelance";
 import Resume from "../components/Resume";
 import Footer from "../components/Footer";
 // import UpArrow from "../Assets/chevron-up-solid.svg";
@@ -12,20 +14,29 @@ function Home() {
     <div className="homePage">
       <Header />
 
-      <main className="container" style={{ backgroundColor: '#fae1dd', marginBottom: '200px'}} >
+      <section className="container" style={{ backgroundColor: '#fae1dd', marginBottom: '110px'}} >
         <div className="row" id="about" >
           <article className="col-12" >
               <AboutMe />
           </article>
         </div>
-      </main>
+      </section>
+
+      {/* <section className="container" style={{ marginBottom: '200px'}} >
+        <Freelance />
+      </section> */}
 
 
-        <div id="resume" className="container resumeContainer" style={{ }} >
-          <div className="col-12 bg">
-            <Resume />
-          </div>
-      </div>
+      <section className="container" style={{ marginBottom: '200px'}} >
+        <Skills />
+      </section>
+
+
+      <section id="resume" className="container resumeContainer" style={{ }} >
+        <div className="col-12 bg">
+          <Resume />
+        </div>
+      </section>
 
       {/* Back to Top Button */}
       {/* <a id="backToTop" className="nav-link" href="#top"> <img src={UpArrow} alt="FontAwesome Up Arrow"/> </a> */}

@@ -2,6 +2,7 @@ import React, {useState} from 'react';
 import Header from "../components/Header";
 import Footer from "../components/Footer";
 import ProjectBlock from "../components/ProjectBlock";
+import ProjectBlockv2 from "../components/ProjectBlockv2";
 
 function Portfolio() {
 
@@ -13,7 +14,8 @@ function Portfolio() {
                     <h1 className="col-12" style={{ textAlign: 'center', color: 'white', marginTop: '50px', marginBottom: '100px', fontSize: '50px', textShadow: '2px 1px 1px black' }}>Portfolio</h1>
 
                     <article className="col-12" style={{ backgroundColor: '#fae1dd' }}>
-                        <ProjectBlock />
+                        {/* <ProjectBlock /> */}
+                        <ProjectBlockv2 />
                     </article> 
 
                 </div>

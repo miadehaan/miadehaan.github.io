@@ -31,7 +31,10 @@ function Resume() {
                     }}
                     sandbox="allow-forms allow-modals allow-orientation-lock allow-popups allow-same-origin allow-scripts" 
                     scrolling="no"
-                    allowfullscreen mozallowfullscreen msallowfullscreen webkitallowfullscreen
+                    allowFullScreen={true}
+                    mozallowfullscreen="true"
+                    msallowfullscreen="true"
+                    webkitallowfullscreen="true"
                 />
             
         </div> 
