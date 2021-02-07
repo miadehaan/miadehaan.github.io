@@ -16,7 +16,7 @@ function Portfolio() {
                 </div>
             </main>
 
-            <article style={{ backgroundColor: '#FFFFFF' }}>
+            <article style={{ backgroundImage: 'linear-gradient(#fae1dd, #ffffff, #ffffff, #fae1dd)' }}>
                         {/* <ProjectBlock /> */}
                         <ProjectBlockv2 />
                     </article> 

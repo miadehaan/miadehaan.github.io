@@ -38,6 +38,42 @@ const projects =[
         key: 2
     },
     {
+        title: "Google Books Search",
+        img: "Assets/googleBooks.PNG",
+        alt: "Screenshot of google books search application",
+        description: "This app allows users to search for books using the Google Books API. They can save which books they like, and later delete saved items.",
+        technology: [
+            "HTML",
+            "CSS",
+            "JavaScript",
+            "Bootstrap",
+            "Express JS",
+            "Node JS",
+            "MongoDB",
+            "Google Books API"
+        ],
+        deployedLink: "https://radiant-plains-96143.herokuapp.com/",
+        githubLink: "https://github.com/miadehaan/Google_Book_Search",
+        key: 9
+    },
+    {
+        title: "Note Taker",
+        img: "Assets/notetaker.PNG",
+        alt: "Screenshot of a note taking application",
+        description: "This application allows the user to create new notes, and save and delete them.",
+        technology: [
+            "HTML",
+            "CSS",
+            "JavaScript",
+            "Bootstrap",
+            "Express.js",
+            "Node JS"
+        ],
+        deployedLink: "https://warm-caverns-15426.herokuapp.com/notes",
+        githubLink: "https://github.com/miadehaan/Note_Taker",
+        key: 6
+    },
+    {
         title: "Foodies Paradise",
         img: "Assets/foodies.PNG",
         alt: "Screenshot of Foodies Paradise application",
@@ -59,22 +95,6 @@ const projects =[
         key: 3
     },
     {
-        title: "Daily Planner",
-        img: "Assets/planner.PNG",
-        alt: "Screenshot of a daily planner application",
-        description: "This is an interactive planner for your busy workday. The current date is displayed at the top of the webpage, and there are blocks for each hour of the work day (8am-5pm). Based on the current hour of the day, each hour block will show a different color. Blocks will turn red if it is in the past, the current hour will be a lavender color, and any blocks with hours in the future will be green.",
-        technology: [
-            "HTML",
-            "CSS",
-            "Bootstrap",
-            "JavaScript",
-            "jQuery"
-        ],
-        deployedLink: "https://miadehaan.github.io/Daily_Planner/",
-        githubLink: "https://github.com/miadehaan/Daily_Planner",
-        key: 4
-    },
-    {
         title: "AirWalk",
         img: "Assets/airwalk.PNG",
         alt: "Screenshot of AirWalk application home page with a map",
@@ -92,21 +112,20 @@ const projects =[
         key: 5
     },
     {
-        title: "Note Taker",
-        img: "Assets/notetaker.PNG",
-        alt: "Screenshot of a note taking application",
-        description: "This application allows the user to create new notes, and save and delete them.",
+        title: "Daily Planner",
+        img: "Assets/planner.PNG",
+        alt: "Screenshot of a daily planner application",
+        description: "This is an interactive planner for your busy workday. The current date is displayed at the top of the webpage, and there are blocks for each hour of the work day (8am-5pm). Based on the current hour of the day, each hour block will show a different color. Blocks will turn red if it is in the past, the current hour will be a lavender color, and any blocks with hours in the future will be green.",
         technology: [
             "HTML",
             "CSS",
-            "JavaScript",
             "Bootstrap",
-            "Express.js",
-            "Node JS"
+            "JavaScript",
+            "jQuery"
         ],
-        deployedLink: "https://warm-caverns-15426.herokuapp.com/notes",
-        githubLink: "https://github.com/miadehaan/Note_Taker",
-        key: 6
+        deployedLink: "https://miadehaan.github.io/Daily_Planner/",
+        githubLink: "https://github.com/miadehaan/Daily_Planner",
+        key: 4
     },
     {
         title: "Employee Directory",
@@ -124,43 +143,24 @@ const projects =[
         githubLink: "https://github.com/miadehaan/Employee_Directory_react",
         key: 7
     },
-    {
-        title: "Fitness Tracker",
-        img: "Assets/fitnessTracker.PNG",
-        alt: "Screenshot of a fitness tracker application",
-        description: "For this app, the user is able to add new exercises and workouts. The overall stats are then displayed on various charts and graphs.",
-        technology: [
-            "HTML",
-            "CSS",
-            "JavaScript",
-            "Bootstrap",
-            "Express JS",
-            "Node JS",
-            "MongoDB"
-        ],
-        deployedLink: "https://mysterious-fjord-83289.herokuapp.com/?id=5fb0afa31ef3450017eb9013",
-        githubLink: "https://github.com/miadehaan/Fitness_Tracker",
-        key: 8
-    },
-    {
-        title: "Google Books Search",
-        img: "Assets/googleBooks.PNG",
-        alt: "Screenshot of google books search application",
-        description: "This app allows users to search for books using the Google Books API. They can save which books they like, and later delete saved items.",
-        technology: [
-            "HTML",
-            "CSS",
-            "JavaScript",
-            "Bootstrap",
-            "Express JS",
-            "Node JS",
-            "MongoDB",
-            "Google Books API"
-        ],
-        deployedLink: "https://radiant-plains-96143.herokuapp.com/",
-        githubLink: "https://github.com/miadehaan/Google_Book_Search",
-        key: 9
-    }
+    // {
+    //     title: "Fitness Tracker",
+    //     img: "Assets/fitnessTracker.PNG",
+    //     alt: "Screenshot of a fitness tracker application",
+    //     description: "For this app, the user is able to add new exercises and workouts. The overall stats are then displayed on various charts and graphs.",
+    //     technology: [
+    //         "HTML",
+    //         "CSS",
+    //         "JavaScript",
+    //         "Bootstrap",
+    //         "Express JS",
+    //         "Node JS",
+    //         "MongoDB"
+    //     ],
+    //     deployedLink: "https://mysterious-fjord-83289.herokuapp.com/?id=5fb0afa31ef3450017eb9013",
+    //     githubLink: "https://github.com/miadehaan/Fitness_Tracker",
+    //     key: 8
+    // },
 
 ];
 

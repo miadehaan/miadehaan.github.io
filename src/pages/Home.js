@@ -27,7 +27,7 @@ function Home() {
       </section> */}
 
 
-      <section className="container" style={{ marginBottom: '200px', textAlign: 'center'}} >
+      <section style={{ marginBottom: '200px', textAlign: 'center'}} >
         <Skills />
       </section>
 
