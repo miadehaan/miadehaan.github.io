@@ -11,7 +11,7 @@ function ProjectBlock() {
     // console.log(projects);
 
     const [modalShow, setModalShow] = useState(false);
-    const [selectedProj, setSelectedProj] = useState();
+    const [selectedProj, setSelectedProj] = useState(); // collecting info of clicked on item
 
     // react-animations
     const FlipInX = styled.div`
@@ -35,11 +35,11 @@ function ProjectBlock() {
                                 <div className="infoOverlay">
                                     <h5 className="projTitle" > {res.title} </h5>
 
-                                    {/* <span style={{ display: 'flex', justifyContent: 'center' }}>
+                                    <span style={{ display: 'flex', justifyContent: 'center' }}>
                                         <Button variant="light" 
                                             onClick={() => {
                                                 setModalShow(true);
-                                                setSelectedProj(res.key);
+                                                setSelectedProj(res);
                                             }} 
                                         >
                                             Learn More
@@ -50,7 +50,7 @@ function ProjectBlock() {
                                             onHide={() => setModalShow(false)}
                                             data={selectedProj}
                                         />
-                                    </span> */}
+                                    </span>
 
                                     <div className="links">
                                         <a className="portfolio" href={res.deployedLink} target="blank"> Visit App </a>

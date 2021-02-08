@@ -54,7 +54,7 @@ const projects =[
         ],
         deployedLink: "https://radiant-plains-96143.herokuapp.com/",
         githubLink: "https://github.com/miadehaan/Google_Book_Search",
-        key: 9
+        key: 3
     },
     {
         title: "Note Taker",
@@ -71,7 +71,7 @@ const projects =[
         ],
         deployedLink: "https://warm-caverns-15426.herokuapp.com/notes",
         githubLink: "https://github.com/miadehaan/Note_Taker",
-        key: 6
+        key: 4
     },
     {
         title: "Foodies Paradise",
@@ -92,7 +92,7 @@ const projects =[
         ],
         deployedLink: "https://frozen-river-52540.herokuapp.com/",
         githubLink: "https://github.com/miadehaan/FoodiesParadise.io",
-        key: 3
+        key: 5
     },
     {
         title: "AirWalk",
@@ -109,7 +109,7 @@ const projects =[
         ],
         deployedLink: "https://mx6.github.io/Bootcamp_Project_1/",
         githubLink: "https://github.com/mx6/Bootcamp_Project_1",
-        key: 5
+        key: 6
     },
     {
         title: "Daily Planner",
@@ -125,7 +125,7 @@ const projects =[
         ],
         deployedLink: "https://miadehaan.github.io/Daily_Planner/",
         githubLink: "https://github.com/miadehaan/Daily_Planner",
-        key: 4
+        key: 7
     },
     {
         title: "Employee Directory",
@@ -141,7 +141,7 @@ const projects =[
         ],
         deployedLink: "https://miadehaan.github.io/Employee_Directory_react/",
         githubLink: "https://github.com/miadehaan/Employee_Directory_react",
-        key: 7
+        key: 8
     },
     // {
     //     title: "Fitness Tracker",

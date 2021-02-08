@@ -1,7 +1,7 @@
 import React, {useState} from 'react';
 import Header from "../components/Header";
 import Footer from "../components/Footer";
-import ProjectBlock from "../components/ProjectBlock";
+// import ProjectBlock from "../components/ProjectBlock";
 import ProjectBlockv2 from "../components/ProjectBlockv2";
 
 function Portfolio() {
