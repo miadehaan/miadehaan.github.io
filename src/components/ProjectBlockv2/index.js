@@ -26,7 +26,7 @@ function ProjectBlock() {
                 // console.log(index);
                 return(
                     <Col md={4} sm={12}  key={res.key} style={{ margin: '0', padding: '22px' }}>
-                        <FlipInX>
+                        {/* <FlipInX> */}
                         <div className="imgContainer" style={{boxShadow: '2px 2px 4px grey'}}>
                             <img className="appImage" variant="top" src={res.img} alt={res.alt} />
                             
@@ -61,39 +61,8 @@ function ProjectBlock() {
 
                             </div>
                         </div>
-                        </FlipInX>
+                        {/* </FlipInX> */}
                     </Col>
-
-                    // <Col lg={4} md={6} sm={12} style={{ paddingBottom: '30px' }}>
-                    // <Card key={res.key} className="card_container" style={{ width: '100%' }}>
-                    //     <Card.Img className="appImage" variant="top" src={res.img} alt={res.alt} />
-
-                    //     <Card.Header> {res.title} </Card.Header>
-                    //     <Card.Body>
-                    //         <Card.Text>
-                    //             <ReactTextCollapse options={TEXT_COLLAPSE_OPTIONS}>
-                    //                 Description: {res.description}
-                    //             </ReactTextCollapse>
-                    //         </Card.Text>
-                    //         <div className="techList">
-                    //             Technologies Used:
-                    //             <ul>
-                    //                 {res.technology.map((tech, index) => {
-                    //                     // console.log(tech);
-                    //                     return (
-                    //                         <li key={index}> {tech} </li>
-                    //                     )
-                    //                 })}
-                    //             </ul>
-                    //         </div>
-                    //         <div className="links">
-                    //             <a className="portfolio" href={res.deployedLink} target="blank"> Go to App </a>
-                    //             <span> | </span>
-                    //             <a className="portfolio" href={res.githubLink} target="blank"> Check out the code! </a>
-                    //         </div>
-                    //     </Card.Body>
-                    // </Card>
-                    // </Col>
                 )
             })}            
         </Row>

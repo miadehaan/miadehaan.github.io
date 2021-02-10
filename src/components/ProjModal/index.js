@@ -1,6 +1,6 @@
 import React, {useState} from 'react';
 import {Modal, Button } from "react-bootstrap";
-import projects from "../../utils/projects.js";
+import "./style.css"
 
 function ProjModal(props) {
     console.log(props.data);
@@ -35,9 +35,19 @@ function ProjModal(props) {
                             )
                         })}
                     </ul>
+                    
+                    <div>
+                        <img className="modalImg" variant="top" src={props.data.img} alt={props.data.alt} />
+                    </div>
+
+                    <div className="linksModal">
+                        <a href={props.data.deployedLink} target="blank"> Visit App </a>
+                            <span> | </span>
+                        <a href={props.data.githubLink} target="blank"> Check out the code! </a>
+                    </div>
                 </Modal.Body>
                 <Modal.Footer>
-                    <Button onClick={props.onHide}>Close</Button>
+                    <Button variant="dark" onClick={props.onHide}>Close</Button>
                 </Modal.Footer>
                 </Modal>
             ) : (
