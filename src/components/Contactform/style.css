@@ -1,17 +1,22 @@
+#headshot {
+    margin: auto;
+    width: 100px;
+    border-radius: 50%;
+}
+
+.socials {
+    padding-top: 40px;
+    display: block;
+    text-align: center;
+}
+
 form {
-    box-shadow: 2px 2px 2px grey;
-    border-radius: 15px;
-    background-color: #ffffff;
     margin: 60px auto 20px auto;
     
 }
 
 .form-group {
     margin: 20px auto 20px auto;   
-}
-
-.formTitle {
-    padding: 20px;
 }
 
 form.content_box {

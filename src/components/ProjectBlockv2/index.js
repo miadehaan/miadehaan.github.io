@@ -52,7 +52,7 @@ function ProjectBlock() {
                                         />
                                     </span>
 
-                                    <div className="links">
+                                    <div className="projLinks">
                                         <a className="portfolio" href={res.deployedLink} target="blank"> Visit App </a>
                                             <span> | </span>
                                         <a className="portfolio" href={res.githubLink} target="blank"> Check out the code! </a>

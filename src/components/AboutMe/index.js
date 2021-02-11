@@ -1,6 +1,5 @@
 import React from 'react';
 import "./style.css";
-// import textBackground from "../../Assets/textBackground_shadow.png";
 import profilePic from "../../Assets/profile.jpg";
 import styled, { keyframes } from 'styled-components';
 import {  fadeInLeft, fadeInRight } from 'react-animations';

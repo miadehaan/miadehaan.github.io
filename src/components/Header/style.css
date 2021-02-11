@@ -6,6 +6,11 @@
     font-size: 18px;
 }
 
+.headerSocial {
+    width: 30px;
+    padding-left: 6px;
+}
+
 /* Logo Sizing */
 @media only screen and (max-width: 600px) {
     .navbar-brand {
