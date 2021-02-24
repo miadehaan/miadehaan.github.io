@@ -90,7 +90,7 @@ const projects =[
             "MySQL",
             "Sequelize"
         ],
-        deployedLink: "https://frozen-river-52540.herokuapp.com/",
+        deployedLink: "https://foodies-paradise.herokuapp.com/",
         githubLink: "https://github.com/miadehaan/FoodiesParadise.io",
         key: 5
     },

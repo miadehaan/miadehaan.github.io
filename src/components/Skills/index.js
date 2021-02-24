@@ -29,6 +29,7 @@ function Skills() {
                     <li> <img src={rightArrow} className="arrow" alt="" /> MySQL </li>
                     <li> <img src={rightArrow} className="arrow" alt="" /> MongoDB </li>
                     <li> <img src={rightArrow} className="arrow" alt="" /> Git </li>
+                    <li> <img src={rightArrow} className="arrow" alt="" /> WordPress </li>
                 </ul>
                 <div className="col-sm-2" />
 

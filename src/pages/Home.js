@@ -3,7 +3,7 @@ import "./home.css";
 import Header from "../components/Header";
 import AboutMe from "../components/AboutMe";
 import Skills from "../components/Skills";
-import Freelance from "../components/Freelance";
+// import Freelance from "../components/Freelance";
 import Resume from "../components/Resume";
 import Footer from "../components/Footer";
 // import UpArrow from "../Assets/chevron-up-solid.svg";
@@ -14,7 +14,7 @@ function Home() {
     <div className="homePage">
       <Header />
 
-      <section className="container" style={{ backgroundColor: '#fae1dd', marginBottom: '110px'}} >
+      <section className="container" style={{ backgroundColor: '#fae1dd', marginBottom: '150px'}} >
         <div className="row" id="about" >
           <article className="col-12" >
               <AboutMe />
@@ -27,7 +27,7 @@ function Home() {
       </section> */}
 
 
-      <section style={{ marginBottom: '200px', textAlign: 'center'}} >
+      <section style={{ marginBottom: '200px', textAlign: 'center', backgroundColor: 'white', boxShadow: '-5px 0px 5px 0px grey' }} >
         <Skills />
       </section>
 
